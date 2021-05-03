@@ -1,0 +1,758 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.11"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉final.core꞉> 
+; Jack-in done.
+clj꞉final.core꞉> 
+; Evaluating file: http.clj
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+" <!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">\n<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">\n<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">\n<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">\n<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>\n<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:site_name\" content=\"Random Word Generator\">\n<meta name=\"csrf-param\" content=\"_csrf\">\n<meta name=\"csrf-token\" content=\"cCw4DQQVlp7vK60JW5lT8mPpY8yPhkihdMbFCzqjz5gFAVlvW1qkqbhO4UsPwWC4L4oNu8HKJ5MF8vFaYPT-7w==\">\n<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>\n\n<meta name=\"atdlayout\" content=\"ros\">\n<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>\n<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>\n<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>\n<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>\n<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>\n\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>\n<script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n\n                gtag('config', 'UA-33613488-12');\n            </script>\n<script>(function(d, s, id) {\n                    var js, fjs = d.getElementsByTagName(s)[0];\n                    if (d.getElementById(id)) return;\n                    js = d.createElement(s); js.id = id;\n                    js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";\n                    fjs.parentNode.insertBefore(js, fjs);\n                }(document, 'script', 'facebook-jssdk'));\n            </script>\n</head>\n<body>\n<div id=\"fb-root\"></div>\n<div class=\"wrap\">\n<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>\n<span class=\"icon-bar\"></span>\n<span class=\"icon-bar\"></span>\n<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>\n<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>\n<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>\n<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>\n<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>\n<li><a href=\"https://randomwordgenerator.com/phrase.php\">Phrase</a></li>\n<li><a href=\"https://randomwordgenerator.com/number.php\">Number</a></li>\n<li><a href=\"https://randomwordgenerator.com/letter.php\">Letter</a></li>\n<li><a href=\"https://randomwordgenerator.com/more.php\">More...</a></li></ul></div></div></nav>\n<div class=\"content_container\">\n<div style=\"text-align:center; margin-top:3px\" class=\"google-ad-container\"> \n<div id=\"RWG_Top_Banner_Desktop_970px\" align=\"center\" class=\"morethan728px\" style=\"height:250px\">\n<div id='div-gpt-ad-1586096937154-0'>\n<script>\n                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586096937154-0'); });\n                            </script>\n</div>\n</div>\n</div>\n<div class=\"container google-ad-container\">\n<div class=\"row text-right\">\n<a class=\"hide-add-button\" href=\"javascript:;\" onclick=\"hideAd(7)/*days:7*/\">Hide this ad</a>\n</div>\n</div>\n<div class=\"form_block\">\n<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-md-6\">\n<h1 class=\"page-title-largest\">Random Sentence Generator</h1>\n<form id=\"options\" method=\"get\">\n<table>\n<tbody>\n<tr>\n<td style=\"padding-top:0\">\n<label>Number of Sentences:</label>\n<input id=\"qty\" min=\"1\" max=\"50\" type=\"number\" name=\"qty\" value=\"1\" class=\"form-control input-sm clamp-qty\" style=\"display:inline-block\"> </td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<input type=\"hidden\" name=\"rand_id\" value=\"66\">\n<input id=\"btn_submit_generator\" type=\"submit\" name=\"submit\" class=\"btn btn-primary\" value=\" Generate Random Sentences \">\n</td>\n</tr>\n</tbody>\n</table>\n</form>\n<div class=\"share-block\" style=\"\">\n<p>Please <strong>LIKE & SHARE</strong> to keep our generators available!</p>\n<div class=\"fb_like_and_share\">\n<div class=\"wrapper_fb_like\">\n<div class=\"fb_like_out\">\n<div class=\"fb_thumb\">\n<div class=\"icon\"></div>\n<div class=\"text\">\n<span>Click<br />Like</span>\n<span class=\"fb_blueArrow\"><img src=\"/img/blue_arrow.png\" /></span>\n</div>\n</div>\n<div class=\"fb-like-wrap\">\n<div class=\"fb-like\" data-href=\"https://randomwordgenerator.com/sentence.php\" data-width=\"90\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"false\"></div>\n</div>\n</div>\n</div>\n</div>\n</div> </div>\n<div class=\"col-md-6 vertical-center\">\n<div id=\"loading_result\" class=\"small-img-results\">\n<ol id=\"result\"></ol>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<div id=\"RWG_Below_Generator_Mobile_300px\" align=\"center\" class=\"lessthan970px\" style=\"height:280px; max-width:336px\" class=\"google-ad-container\">\n<div id='div-gpt-ad-1578531360465-0' align=\"center\" class=\"lessthan970px\">\n<script>\n            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1578531360465-0'); });\n        </script>\n</div>\n</div>\n<div class=\"container pt bottom_desc\">\n<div class=\"row\">\n<div class=\"col-md-6\">\n\n<div class=\"google-ad-container\"><div id=\"v-randomwordgenerator\"></div><div id=\"v-randomwordgenerator\"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '//a.vdo.ai/core/v-randomwordgenerator/vdo.ai.js');</script></div>\n\n<div id=\"RWG_Under_Video_Player\" align=\"center\" style=\"height:100px; margin-bottom:10px;\">\n<div id='div-gpt-ad-1619013591139-0'>\n<script>\n    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1619013591139-0'); });\n  </script>\n</div>\n</div>\n<p>If you're visiting this page, you're likely here because you're searching for a random sentence. Sometimes a random word just isn't enough, and that is where the random sentence generator comes into play. By inputting the desired number, you can make a list of as many random sentences as you want or need. Producing random sentences can be helpful in a number of different ways.</p>\n<p>For writers, a random sentence can help them get their creative juices flowing. Since the topic of the sentence is completely unknown, it forces the writer to be creative when the sentence appears. There are a number of different ways a writer can use the random sentence for creativity. The most common way to use the sentence is to begin a story. Another option is to include it somewhere in the story. A much more difficult challenge is to use it to end a story. In any of these cases, it forces the writer to think creatively since they have no idea what sentence will appear from the tool.</p>\n<p>For those writers who have writers' block, this can be an excellent way to take a step to crumbling those walls. By taking the writer away from the subject matter that is causing the block, a random sentence may allow them to see the project they're working on in a different light and perspective. Sometimes all it takes is to get that first sentence down to help break the block.</p>\n<p>It can also be successfully used as a daily exercise to get writers to begin writing. Being shown a random sentence and using it to complete a paragraph each day can be an excellent way to begin any writing session.</p>\n<p>Random sentences can also spur creativity in other types of projects being done. If you are trying to come up with a new concept, a new idea or a new product, a random sentence may help you find unique qualities you may not have considered. Trying to incorporate the sentence into your project can help you look at it in different and unexpected ways than you would normally on your own.</p>\n<p>It can also be a fun way to surprise others. You might choose to share a random sentence on social media just to see what type of reaction it garners from others. It's an unexpected move that might create more conversation than a typical post or tweet.</p>\n<p>These are just a few ways that one might use the random sentence generator for their benefit. If you're not sure if it will help in the way you want, the best course of action is to try it and see. Have several random sentences generated and you'll soon be able to see if they can help with your project.</p>\n<p>Our goal is to make this tool as useful as possible. For anyone who uses this tool and comes up with a way we can improve it, we'd love to know your thoughts. Please contact us so we can consider adding your ideas to make the random sentence generator the best it can be.</p>\n<div class=\"faq\" id=\"faq\" itemscope=\"\" itemtype=\"https://schema.org/FAQPage\"><h2 style=\"margin-bottom:25px\">Frequently Asked Questions</h2>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https://schema.org/Question\">\n<h3 class=\"faq__title\" itemprop=\"name\">Are random sentences computer generated?</h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https://schema.org/Answer\">\n<div itemprop=\"text\"><p>No, the random sentences in our generator are not computer generated. We considered using computer generated sentences when building this tool, but found the results to be disappointing. Even though it took a lot of time, all the sentences in this generator were created by us.</p></div>\n</div>\n</div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https://schema.org/Question\">\n<h3 class=\"faq__title\" itemprop=\"name\">Can I use these random sentences for my project?</h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https://schema.org/Answer\">\n<div itemprop=\"text\"><p>Yes! Feel free to use any of the random sentences for any project that you may be doing.</p></div>\n</div>\n</div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https://schema.org/Question\">\n<h3 class=\"faq__title\" itemprop=\"name\">Can I write random sentences?</h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https://schema.org/Answer\">\n<div itemprop=\"text\"><p>Sure. We are always looking to expand the database of random sentences. If you have some random sentences that you've created yourself and you'd like to share them with others, fell free to send them to us for addition to this generator.</p></div>\n</div>\n</div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https://schema.org/Question\">\n<h3 class=\"faq__title\" itemprop=\"name\">What is a sentence?</h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https://schema.org/Answer\">\n<div itemprop=\"text\"><p>In order to have a complete sentence, the sentence must have a minimum of three word types: a subject, a verb, and an object. In most cases, the subject is a noun or a pronoun. For example, the sentence \"Jack loves candy\" is a complete sentence because it has all three elements needed to make a complete sentence. Jack (the subject) loves (the verb) candy (the object).</p></div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"col-md-6\">\n<h2 style=\"margin-top:0\">Other Random Generators</h2>\n<p>Here you can find all the other Random Generators:</p>\n<ul>\n<li><a href=\"https://randomwordgenerator.com/\">Random Word Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/noun.php\">Random Noun Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/synonym.php\">Random Synonym Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/verb.php\">Random Verb Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/name.php\">Random Name Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/adjective.php\">Random Adjective Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/sentence.php\">Random Sentence Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/phrase.php\">Random Phrase Generator</a>\n</li>\n</ul>\n\n<div id=\"RWG_Sidebar_Banner_Desktop_970px\" style=\"max-width: 336px; height:280px; margin-bottom:35px\" align=\"left\">\n<div id='div-gpt-ad-1578532080811-0' style=\"height:280px\">\n<script>\n            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1578532080811-0'); });\n        </script>\n</div>\n</div>\n\n<div id=\"c-randomwordgenerator\"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '//a.vdo.ai/core/c-randomwordgenerator/vdo.ai.js');</script>\n<ul>\n<li><a href=\"https://randomwordgenerator.com/paragraph.php\">Random Paragraph Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/weird-word.php\">Weird Words</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/fake-word.php\">Fake Words</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/letter.php\">Random Letter Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/number.php\">Random Number Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/cursive-letter.php\">Cursive Letters</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/password.php\">Random Password Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/bible.php\">Random Bible Verses</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/picture.php\">Random Pictures</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/wedding-hashtags.php\">Wedding Hashtags Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/list.php\">Random List</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/dinner-ideas.php\">Dinner Ideas Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/breakfast-ideas.php\">Breakfast Ideas</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/yes-no.php\">Yes or No Oracle</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/pictionary.php\">Pictionary Generator</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/motivational-quote.php\">Motivational Quotes</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/question.php\">Random Questions</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/fact.php\">Random Facts</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/vocabulary.php\">Vocabulary Words</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/writing-prompt.php\">Writing Prompts</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/coin-flip.php\">Coin Flip</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/dice-roll.php\">Dice Roll</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/never-have-i-ever-question.php\">Never Have I Ever Questions</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/would-you-rather-question.php\">Would You Rather Questions</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/truth-or-dare-question.php\">Truth or Dare Questions</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/decision.php\">Decision Maker</a>\n</li>\n<li><a href=\"https://randomwordgenerator.com/hangman.php\">Hangman Words</a>\n<span class=\"label label-success\">New</span> </li>\n</ul>\n\n<div id=\"RWG_Sidebar_video_story\" align=\"left\">\n<div id=\"s-randomwordgenerator\"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '//a.vdo.ai/core/s-randomwordgenerator/vdo.ai.js');</script>\n</div>\n<style>\n@media (max-width:728px) {\n    #RWG_Sidebar_video_story {\n\t\twidth:336px !important;\n    }\n}\n</style>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<div id=\"RWG_Bottom_Banner_Desktop_970px\" align=\"center\" class=\"morethan728px\" style=\"height:280px\">\n<div id='div-gpt-ad-1586097229156-0'>\n<script>\n                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586097229156-0'); });\n                </script>\n</div>\n<a href=\"https://www.papayads.net/?referral=rwg\" target=\"blank\" style=\"color: #bcbabc; font-size: 10px; text-align: center; text-decoration: none\">- PapayAds Advertising -</a>\n</div>\n\n<div id=\"RWG_Bottom_Page_Mobile_300px\" align=\"center\" class=\"lessthan970px\" style=\"height:280px; max-width:336px\">\n<div id='div-gpt-ad-1578531621024-0' class=\"lessthan728px\">\n<script>\n                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1578531621024-0'); });\n                </script>\n</div>\n</div>\n<footer class=\"footer\">\n<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-lg-4\">\n<h4>Contact Us</h4>\n<p class=\"contact-us-details\">\nEmail:\n<a href=\"/cdn-cgi/l/email-protection#d9b0b7bfb699e8aae9aaf7bab6b4\"><span class=\"__cf_email__\" data-cfemail=\"87eee9e1e8c7b6f4b7f4a9e4e8ea\">[email&#160;protected]</span></a>\n</p>\n<p>\n<a href=\"https://page.enduserfeedback.com/rwg\">Request a New Feature</a>\n</p>\n</div>\n<div class=\"col-lg-4 other_project_block\">\n<h4>OTHER PROJECTS</h4>\n<p><a href=\"https://cursiveletters.com/\" target=\"_blank\">Cursive Letters</a></p>\n<p><a href=\"https://bibleversegenerator.com/\" target=\"_blank\">Bible Verse Generator</a></p>\n<p><a href=\"https://randomlistgenerator.com\" target=\"_blank\">Random List Generator</a></p>\n<p><a href=\"https://mediasizes.com/\" target=\"_blank\">Media Sizes</a></p>\n<p><a href=\"https://productivitytimer.com/\" target=\"_blank\">Productivity Timer</a></p>\n<p><a href=\"https://hashtagpicker.com/\" target=\"_blank\">Hashtag Picker</a></p>\n</div>\n<div class=\"col-lg-4\">\n<h4>About Us</h4>\n<p>\nWe created this website to generate random words and more.\n</p>\n<p>\n<a href=\"https://randomwordgenerator.com/privacy-policy.php\">Privacy Policy</a>\n</p>\n</div>\n</div>\n<style>\n                .darkmode--activated p, .darkmode--activated li, .darkmode--activated h1, .darkmode--activated form, .darkmode--activated h2, .darkmode--activated .faq__title {\n                    color: lightgray;\n                }\n                .darkmode--activated .footer {\n                    background-color: lightgray;\n                }\n            </style>\n<div class=\"row\">\n<div class=\"col-md-12\">\n<h4>Experimental features:</h4>\n<form data-persist=\"garlic\" style=\"color:white\"><label style=\"font-weight: normal\"><input type=\"checkbox\" id=\"darkmodecheckbox\" class=\"garlic-field\"> Dark mode</label>&nbsp;&nbsp; <label style=\"font-weight: normal\"><input type=\"checkbox\" id=\"slideintext\" class=\"garlic-field\"> Slide in text</label></form>\n</div>\n</div>\n</div>\n</footer>\n\n<div class=\"left-banner vertical-center\">\n<div id='div-gpt-ad-1594596253835-0'>\n<script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script>\ngoogletag.cmd.push(function() { googletag.display('div-gpt-ad-1594596253835-0'); });\n</script>\n</div>\n</div>\n\n<div class=\"right-banner vertical-center\">\n<div id='div-gpt-ad-1594596361194-0'>\n<script>\ngoogletag.cmd.push(function() { googletag.display('div-gpt-ad-1594596361194-0'); });\n</script>\n</div>\n</div>\n\n<style>\n.right-banner{\n  height:600px;\n  position:fixed;\n  top: 50px;\n  right:0;\n  }\n.left-banner{\n  height:600px;\n  position:fixed;\n  top: 50px;\n  left:0;\n  }\n.vdo_logo{\n  visibility:hidden !important ;\n  opacity: 0.0 !important ;\n  }\n#vdo_logo{\n  visibility:hidden !important ;\n  opacity: 0.0 !important ;\n  }\n#vdo_articles_top_bar{\n    visibility:hidden !important ;\n    opacity: 0.0 !important ;\n  }\n#vdo_companion_wrapper{\n    height: 0 !important ;\n  }\n#c-randomwordgenerator-1{\n      margin-bottom: 20px !important ;\n  }\n@media (max-width:1205px) and (min-width:965px) {\n    #vdo_ai_7212 {\n\t\twidth:480px !important;\n    }\n}​\n</style>\n<script type=\"text/javascript\">\nlet limitBottom = document.documentElement.offsetHeight - window.innerHeight;\nwindow.addEventListener(\"scroll\",function(){\n  if(document.documentElement.scrollTop < 600){\n    document.getElementById(\"_vdo_ads_player_ai_3129\").className = \"vdo_content\";\n  }\n})\n\nfunction mutePage() {\n    var elems = document.querySelectorAll(\"video, audio\");\n\n    [].forEach.call(elems, function(elem) { muteMe(elem); });\n}\n</script>\n<script src=\"/assets/js-compress/1cf2e9fef3e0a98c583266bd0f318791.js?v=1599059198\"></script>\n</body>\n</html>\n"
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+[" <!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"rmV1SY_i75Pwf6mmsvFRJsMPLaDAmmNJqpqcxdDP7xbjBhEsy4q63qkU9snVsmRp8XVfwYWjLH313tGcv_etWg==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ ""
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ ""
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "                window.dataLayer = window.dataLayer || [];"
+ "                function gtag(){dataLayer.push(arguments);}"
+ "                gtag('js', new Date());"
+ ""
+ "                gtag('config', 'UA-33613488-12');"
+ "            </script>"
+ "<script>(function(d, s, id) {"
+ "                    var js, fjs = d.getElementsByTagName(s)[0];"
+ "                    if (d.getElementById(id)) return;"
+ "                    js = d.createElement(s); js.id = id;"
+ "                    js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "                    fjs.parentNode.insertBefore(js, fjs);"
+ "                }(document, 'script', 'facebook-jssdk'));"
+ "            </script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ ...]
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code ["https://randomwordgenerator.com/sentence.php" "https://fungenerators.com/random/sentence"])
+([" <!DOCTYPE html>"
+  "<html lang=\"en-US\">"
+  "<head>"
+  "<meta charset=\"UTF-8\">"
+  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+  "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+  "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+  "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+  "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+  "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+  "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+  "<meta property=\"og:type\" content=\"article\">"
+  "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+  "<meta name=\"csrf-param\" content=\"_csrf\">"
+  "<meta name=\"csrf-token\" content=\"JXpfVXcRizZF6MYzsLUPU8kj0NNll7fHctIrQRW8cbAQAyk8HVPzDymGiFHSz384ng65uCDj0_8msRgEbIQj_A==\">"
+  "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+  ""
+  "<meta name=\"atdlayout\" content=\"ros\">"
+  "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+  "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+  "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+  "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+  "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+  ""
+  "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+  "<script>"
+  "                window.dataLayer = window.dataLayer || [];"
+  "                function gtag(){dataLayer.push(arguments);}"
+  "                gtag('js', new Date());"
+  ""
+  "                gtag('config', 'UA-33613488-12');"
+  "            </script>"
+  "<script>(function(d, s, id) {"
+  "                    var js, fjs = d.getElementsByTagName(s)[0];"
+  "                    if (d.getElementById(id)) return;"
+  "                    js = d.createElement(s); js.id = id;"
+  "                    js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+  "                    fjs.parentNode.insertBefore(js, fjs);"
+  "                }(document, 'script', 'facebook-jssdk'));"
+  "            </script>"
+  "</head>"
+  "<body>"
+  "<div id=\"fb-root\"></div>"
+  "<div class=\"wrap\">"
+  "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+  "<span class=\"icon-bar\"></span>"
+  "<span class=\"icon-bar\"></span>"
+  "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+  "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+  ...]
+ ["<!DOCTYPE html>"
+  "<html lang=\"en\">"
+  "  <head>"
+  "    <meta charset=\"utf-8\">"
+  "    <title>Random Sentence Generator</title>"
+  ""
+  "    <link rel=\"dns-prefetch\" href=\"//ajax.googleapis.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//fonts.googleapis.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//fonts.gstatic.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//stats.g.doubleclick.net\">"
+  "    <link rel=\"dns-prefetch\" href=\"//googleads.g.doubleclick.net\">"
+  ""
+  "    <link rel=\"dns-prefetch\" href=\"//disqus.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//referrer.disqus.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//a.disquscdn.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//b.disquscdn.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//c.disquscdn.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//acdn.adnxs.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//cdn.taboola.com\">"
+  "    <link rel=\"dns-prefetch\" href=\"//images.taboola.com\">"
+  ""
+  "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">"
+  "    <meta name=\"application-name\" content=\"Fun Generators\" />"
+  "    <meta name=\"msvalidate.01\" content=\"862295C6F21EB0467870986498893633\" />"
+  "    <meta name=\"author\" content=\"orthosie\" />"
+  "    <meta name=\"robots\" content=\"All\" />"
+  "    <meta name=\"description\" content=\"Random Sentence Generator\">"
+  "    <meta name=\"keywords\" content=\"\" />"
+  "    <meta name=\"generator\" content=\"Orthosie META Tag Generator: http://toolswebtop.com/seo/metatag\" />"
+  "    <meta name=\"rating\" content=\"General\" />"
+  ""
+  "    <meta name=\"dcterms.title\" content=\"Random Sentence Generator\" />"
+  "    <meta name=\"dcterms.contributor\" content=\"orthosie\" />"
+  "    <meta name=\"dcterms.creator\" content=\"orthosie\" />"
+  "    <meta name=\"dcterms.publisher\" content=\"orthosie\" />"
+  "    <meta name=\"dcterms.description\" content=\"Random Sentence Generator\" />"
+  "    <meta name=\"dcterms.rights\" content=\"Copyright 2014-16 Fun Generators\" />"
+  ""
+  "    <meta property=\"og:type\" content=\"website\" />"
+  "    <meta property=\"og:title\" content=\"Random Sentence Generator\" />"
+  "    <meta property=\"og:site_name\" content=\"Fun Generators\" />    "
+  "    <meta property=\"og:description\" content=\"Random Sentence Generator\" />"
+  "    <meta property=\"twitter:title\" content=\"Random Sentence Generator\" />"
+  "    <meta property=\"twitter:description\" content=\"Random Sentence Generator\" />"
+  ""
+  "    <link type=\"image/x-icon\" href=\"/favicon.ico\" rel=\"shortcut icon\"/>"
+  ""
+  "<!--link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\" integrity=\"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7\" crossorigin=\"anonymous\">"
+  "<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css\" integrity=\"sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r\" crossorigin=\"anonymous\">"
+  ""
+  ...])
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code ["https://randomwordgenerator.com/sentence.php" "https://fungenerators.com/random/sentence"])
+(" <!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"biJMR-0826lL52JrjmXrzpivd-smezh4Zdyli5zo3oZDWh0Ong6rnR23IQLgKI_j_5gwnW8WADUqspPx096S8g==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ ""
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ ""
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "                window.dataLayer = window.dataLayer || [];"
+ "                function gtag(){dataLayer.push(arguments);}"
+ "                gtag('js', new Date());"
+ ""
+ "                gtag('config', 'UA-33613488-12');"
+ "            </script>"
+ "<script>(function(d, s, id) {"
+ "                    var js, fjs = d.getElementsByTagName(s)[0];"
+ "                    if (d.getElementById(id)) return;"
+ "                    js = d.createElement(s); js.id = id;"
+ "                    js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "                    fjs.parentNode.insertBefore(js, fjs);"
+ "                }(document, 'script', 'facebook-jssdk'));"
+ "            </script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ ...)
+clj꞉final.http꞉> 
+(get-code ["https://randomwordgenerator.com/sentence.php" "https://fungenerators.com/random/sentence"])
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+; Execution error (ArityException) at final.http/eval12688 (form-init13013149931037189121.clj:254).
+; Wrong number of args (0) passed to: final.http/get-code
+clj꞉final.http꞉> 
+#'final.http/get-code
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+(" <!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"KvIzEIL_gdlPLZBZeR0WBDs4tWAtaBWl_hREfeP3yXdypGRSyZrJugRA3WoRXHEwcmrBLkopWuGzQh0tpse5Wg==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ ""
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ ""
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "                window.dataLayer = window.dataLayer || [];"
+ "                function gtag(){dataLayer.push(arguments);}"
+ "                gtag('js', new Date());"
+ ""
+ "                gtag('config', 'UA-33613488-12');"
+ "            </script>"
+ "<script>(function(d, s, id) {"
+ "                    var js, fjs = d.getElementsByTagName(s)[0];"
+ "                    if (d.getElementById(id)) return;"
+ "                    js = d.createElement(s); js.id = id;"
+ "                    js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "                    fjs.parentNode.insertBefore(js, fjs);"
+ "                }(document, 'script', 'facebook-jssdk'));"
+ "            </script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ ...)
+clj꞉final.http꞉> 
+(count (get-code))
+2027
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(count (get-code))
+1883
+clj꞉final.http꞉> 
+(get-code)
+("<!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"rmG0t41LeNPl7hqeIyOky7PaKzT3Mrt-e6aGAJWYMECaMOPP_H8x47qccvYUT4n8xahuBrBc8BIe78li3tpcMA==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "window.dataLayer = window.dataLayer || [];"
+ "function gtag(){dataLayer.push(arguments);}"
+ "gtag('js', new Date());"
+ "gtag('config', 'UA-33613488-12');"
+ "</script>"
+ "<script>(function(d, s, id) {"
+ "var js, fjs = d.getElementsByTagName(s)[0];"
+ "if (d.getElementById(id)) return;"
+ "js = d.createElement(s); js.id = id;"
+ "js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "fjs.parentNode.insertBefore(js, fjs);"
+ "}(document, 'script', 'facebook-jssdk'));"
+ "</script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>"
+ "<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>"
+ ...)
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+("<!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"1K0lt0b3nfXwEvbUVuXIbFdtvTSPSGfjXEKVWIXy0NSVzH_cKLvYp4Umx-wTvLszBFTEQ7YqPYYZLvs27aSJpA==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "window.dataLayer = window.dataLayer || [];"
+ "function gtag(){dataLayer.push(arguments);}"
+ "gtag('js', new Date());"
+ "gtag('config', 'UA-33613488-12');"
+ "</script>"
+ "<script>(function(d, s, id) {"
+ "var js, fjs = d.getElementsByTagName(s)[0];"
+ "if (d.getElementById(id)) return;"
+ "js = d.createElement(s); js.id = id;"
+ "js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "fjs.parentNode.insertBefore(js, fjs);"
+ "}(document, 'script', 'facebook-jssdk'));"
+ "</script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>"
+ "<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>"
+ ...)
+clj꞉final.http꞉> 
+(count (get-code))
+5284
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(count (get-code))
+5283
+clj꞉final.http꞉> 
+; Evaluating file: core.clj
+; Syntax error macroexpanding clojure.core/defn at (C:\Users\Alex\FunctionalProgramming\final\src\final\core.clj:34:1).
+; () - failed: Insufficient input at: [:fn-name] spec: :clojure.core.specs.alpha/defn-args
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉final.http꞉> 
+clj꞉final.core꞉> 
+(second ["hi"])
+nil
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+; Syntax error reading source at (C:\Users\Alex\FunctionalProgramming\final\src\final\core.clj:158:1).
+; EOF while reading, starting at line 21
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉final.core꞉> 
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/char-range
+clj꞉final.core꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+; Evaluating file: core.clj
+#'final.core/rand-len
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/rand-len
+clj꞉final.core꞉> 
+(contains? "hello my name is " "a")
+; Execution error (IllegalArgumentException) at final.core/eval13082 (form-init13013149931037189121.clj:478).
+; contains? not supported on type: java.lang.String
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/rand-len
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+(get-code)
+; Syntax error compiling at (c:\Users\Alex\FunctionalProgramming\final\.calva\output-window\output.calva-repl:494:1).
+; Unable to resolve symbol: get-code in this context
+clj꞉final.core꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+("<!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"VD20777tE7K_iDwHUHqb5tdcHD50NuXOrBLgdNOORXQ-a9OO36pX1YnxD08EON-_ljtSaEN1lJ3URKkYoeAKKw==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "window.dataLayer = window.dataLayer || [];"
+ "function gtag(){dataLayer.push(arguments);}"
+ "gtag('js', new Date());"
+ "gtag('config', 'UA-33613488-12');"
+ "</script>"
+ "<script>(function(d, s, id) {"
+ "var js, fjs = d.getElementsByTagName(s)[0];"
+ "if (d.getElementById(id)) return;"
+ "js = d.createElement(s); js.id = id;"
+ "js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "fjs.parentNode.insertBefore(js, fjs);"
+ "}(document, 'script', 'facebook-jssdk'));"
+ "</script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>"
+ "<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>"
+ ...)
+clj꞉final.http꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+(get-code)
+("<!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"QDqCkIR1FirA-DvCUeXUsG5TDpuF9C24X-AbSObEWfJ3AtPByS9YGJrLa68QsbDWQztFxP2cV-sKh3kqs55gvQ==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "window.dataLayer = window.dataLayer || [];"
+ "function gtag(){dataLayer.push(arguments);}"
+ "gtag('js', new Date());"
+ "gtag('config', 'UA-33613488-12');"
+ "</script>"
+ "<script>(function(d, s, id) {"
+ "var js, fjs = d.getElementsByTagName(s)[0];"
+ "if (d.getElementById(id)) return;"
+ "js = d.createElement(s); js.id = id;"
+ "js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "fjs.parentNode.insertBefore(js, fjs);"
+ "}(document, 'script', 'facebook-jssdk'));"
+ "</script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>"
+ "<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>"
+ ...)
+clj꞉final.http꞉> 
+("<!DOCTYPE html>"
+ "<html lang=\"en-US\">"
+ "<head>"
+ "<meta charset=\"UTF-8\">"
+ "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">"
+ "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+ "<meta name=\"description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:description\" content=\"The Random Sentence Generator contains 1000+ random sentences created specifically for this free writing tool and found nowhere else.\">"
+ "<meta property=\"og:image\" content=\"https://randomwordgenerator.com/img/random-sentence-generator.jpg\">"
+ "<link href=\"/assets/css-compress/e80539482cef66279c32ca9e3c62c207.css?v=1599059136\" rel=\"stylesheet\">"
+ "<script src=\"/assets/js-compress/53942c922657126477ae630dea87cdf0.js?v=1599059136\"></script>"
+ "<meta property=\"og:title\" content=\"Random Sentence Generator &amp;mdash; 1000+ Random Sentences\">"
+ "<meta property=\"og:type\" content=\"article\">"
+ "<meta property=\"og:site_name\" content=\"Random Word Generator\">"
+ "<meta name=\"csrf-param\" content=\"_csrf\">"
+ "<meta name=\"csrf-token\" content=\"qSOwqs6fDihDOvN_xBsX33X_mWTX9CeeP9LkkAhEPszZQdn5oMd-cjV7hA2GQny-I77YULayUd9054r_OwBWqA==\">"
+ "<title>Random Sentence Generator &mdash; 1000+ Random Sentences</title>"
+ "<meta name=\"atdlayout\" content=\"ros\">"
+ "<script type=\"text/javascript\" src=\"//services.vlitag.com/adv1/?q=67477ef16be2e930fdbfd8690d491d7b\"></script>"
+ "<script> var vitag = vitag || {}; </script><script> vitag.outStreamConfig = { version: \"v1\",} </script>"
+ "<script data-cfasync=\"false\" type=\"text/javascript\">(function(w, d) { var s = d.createElement(\"script\"); s.src = \"//delivery.adrecover.com/41216/adRecover.js\"; s.type = \"text/javascript\"; s.async = true; (d.getElementsByTagName(\"head\")[0] || d.getElementsByTagName(\"body\")[0]).appendChild(s); })(window, document);</script>"
+ "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script>"
+ "<script src=\"https://papayads.net/clnt/randomwordgenerator/v19/adtags.js\" type=\"text/javascript\"></script>"
+ "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-33613488-12\"></script>"
+ "<script>"
+ "window.dataLayer = window.dataLayer || [];"
+ "function gtag(){dataLayer.push(arguments);}"
+ "gtag('js', new Date());"
+ "gtag('config', 'UA-33613488-12');"
+ "</script>"
+ "<script>(function(d, s, id) {"
+ "var js, fjs = d.getElementsByTagName(s)[0];"
+ "if (d.getElementById(id)) return;"
+ "js = d.createElement(s); js.id = id;"
+ "js.src = \"//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=420272148007912\";"
+ "fjs.parentNode.insertBefore(js, fjs);"
+ "}(document, 'script', 'facebook-jssdk'));"
+ "</script>"
+ "</head>"
+ "<body>"
+ "<div id=\"fb-root\"></div>"
+ "<div class=\"wrap\">"
+ "<nav id=\"w0\" class=\"rwd_navbar navbar-fixed-top navbar\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#w0-collapse\"><span class=\"sr-only\">Toggle navigation</span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span>"
+ "<span class=\"icon-bar\"></span></button><a class=\"navbar-brand\" href=\"/\">Random Word Generator</a></div><div id=\"w0-collapse\" class=\"collapse navbar-collapse\"><ul id=\"w1\" class=\"navbar-nav navbar-right menu_nav nav\"><li><a href=\"https://randomwordgenerator.com/\">Word</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/noun.php\">Noun</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/verb.php\">Verb</a></li>"
+ "<li><a href=\"https://randomwordgenerator.com/name.php\">Name</a></li>"
+ "<li class=\"active\"><a href=\"https://randomwordgenerator.com/sentence.php\">Sentence</a></li>"
+ ...)
+clj꞉final.http꞉> 
+(-main)
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+(-main)
+#<Promise@2d398208: :not-delivered>
+clj꞉final.core꞉> 
+(-main -code)
+; Syntax error compiling at (c:\Users\Alex\FunctionalProgramming\final\.calva\output-window\output.calva-repl:669:1).
+; Unable to resolve symbol: -code in this context
+clj꞉final.core꞉> 
+(-main ["-code"])
+; Execution error (IllegalArgumentException) at final.core/map-from-file (core.clj:77).
+; No implementation of method: :as-file of protocol: #'clojure.java.io/Coercions found for class: clojure.lang.PersistentVector
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+(-main ["-code"])
+; Execution error (IllegalArgumentException) at final.core/map-from-file (core.clj:78).
+; No implementation of method: :as-file of protocol: #'clojure.java.io/Coercions found for class: clojure.lang.PersistentVector
+clj꞉final.core꞉> 
+(-main ["-code" "profiles/user1.txt
+                 "])
+; Execution error (IllegalArgumentException) at final.core/map-from-file (core.clj:78).
+; No implementation of method: :as-file of protocol: #'clojure.java.io/Coercions found for class: clojure.lang.PersistentVector
+clj꞉final.core꞉> 
+(-main ("-code" "profiles/user1.txt"))
+; Execution error (ClassCastException) at final.core/eval14773 (form-init13013149931037189121.clj:689).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉final.core꞉> 
+(-main ("profiles/user1.txt"))
+; Execution error (ClassCastException) at final.core/eval14775 (form-init13013149931037189121.clj:693).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+(-main ("profiles/user1.txt"))
+; Execution error (ClassCastException) at final.core/eval14833 (form-init13013149931037189121.clj:700).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+(nil? nil)
+true
+clj꞉final.core꞉> 
+(nil? ["hello"])
+false
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: http.clj
+#'final.http/headlines
+clj꞉final.http꞉> 
+; Evaluating file: project.clj
+; Syntax error compiling at (C:\Users\Alex\FunctionalProgramming\final\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+; Evaluation of file project.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉final.http꞉> 
+clj꞉user꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
+; Evaluating file: core.clj
+#'final.core/max-attempts
+clj꞉final.core꞉> 
